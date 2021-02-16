@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>PORTAFOLIO - MAXCH78 - FrontEnd</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+	
+	 <!------ Light Box ------>
+    <link rel="stylesheet" href="css/swipebox.css">
+    <script src="js/jquery.swipebox.min.js"></script> 
+    <script type="text/javascript">
+		jQuery(function($) {
+			$(".swipebox").swipebox();
+		});
+	</script>
+    <!------ Eng Light Box ------>	
+
+</head>
+<body>
+<div class="header" id="head">	
+      <div class="container"> 
+         <div class="header-top">
+      		 <div class="logo">
+				<a href="index.html"><img src="images/logo_maxch78.png" alt=""/></a>
+			 </div>
+		   <div class="top-menu">
+		   	<span class="menu"> </span>
+			<ul>
+			 	<nav class="cl-effect-5">
+				<li><a class="active" href="#home" class="scroll"><span data-hover="Home">home</span></a></li>
+				<li><a href="#services" class="scroll"><span data-hover="experiencia">experiencia</span></a></li>
+				<li><a href="#work" class="scroll"><span data-hover="works"><span>works</span></a></li>
+				<li><a href="#about" class="scroll"><span data-hover="skills">skills</span></a></li>
+				<li><a href="#contact" class="scroll"><span data-hover="contact">contact</span></a></li>
+				</nav>
+			 </ul>
+			 </div>
+			 <!--script-nav-->
+		 <script>
+		 $("span.menu").click(function(){
+		 $(".top-menu ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>
+			<div class="clearfix"></div>
+		 </div>  
+		  <div class="index-banner">
+       	   <div class="wmuSlider example1">
+			   <div class="wmuSliderWrapper">
+				   <article style="position: absolute; width: 100%; opacity: 0;"> 
+				   	<div class="banner-wrap">
+				   	       	<div class="banner_center">
+				   		 		<h1>Hola mundo,  Soy Max</h1> 
+				   		 		<h2><span>Desarrollador Front-End</span></h2>
+				   		 		<h2>padawan del código</h2>
+				   		 		</div>
+				   		 </div>
+					</article>
+
+				   <article style="position: relative; width: 100%; opacity: 1;"> 
+				   	   	<div class="banner-wrap">
+				   	      <div class="banner_center">
+				   		 		<h1>¿Qué puedo hacer por ti?</h1> 
+				   		 		<h2><span> Front-End | Web Designer | Marketing Digital</span></h2>
+				   		 		</div>
+				   		  </div>
+				   </article>
+
+				   <article style="position: absolute; width: 100%; opacity: 0;">
+				   	  	<div class="banner-wrap">
+				   	       <div class="banner_center">
+				   		 		<h1>Ve mi portafolio ,</h1> 
+				   		 		<h2>revísalo<span>  | contáctame</span></h2>
+				   		 		</div>
+				   		 </div>
+					 </article>
+				 </div>
+				
+            </div>
+            <script src="js/jquery.wmuSlider.js"></script> 
+			  <script>
+       			$('.example1').wmuSlider();         
+   		     </script> 	           	      
+      </div>
+	 </div>     
+	</div>
+	<div class="content">
+		<div class="services-section" id="services">
+			<div class="container"> 
+			<div class="services-header">
+				<h3><span>[</span> experiencia <span>]</span></h3>
+					<p>	Egresado Bootcamp “Desarrollo Front-End” en Desafío Latam y Publicista de profesión.
+						Conocimientos adquiridos en construcción de aplicaciones web empleando: HTML5, CSS3, SASS, Metodología BEM, Bootstrap 4, jQuery, JavaScript, Terminal, Git, API, Vue JS, Vue Router, Vuex, Deploy apps, Firebase.</p>
+			</div>
+			<div class="services-sectiongrids">
+				<div class="col-md-4 services-grid">
+					<img src="images/img1.png">
+					<h4>Publicista</h4>
+					<p>Especializado en marketing digital, trabajando para diversos ecommerces nacionales: corona.cl | lapolar.cl | ripley.cl</p><br><p>Como también en agencias de internet: cardumen.cl | bluecompany.cl | ayerviernes.com | icrossing.com (ex wallaby)</p>
+				</div>
+				<div class="col-md-4 services-grid">
+					<a href="./download/CV-MAX-Front-End.pdf" target="_blank"><img src="images/img2.png"></a>
+					<a href="./download/CV-MAX-Front-End.pdf" target="_blank"><h4>descarga mi curriculum</h4></a>
+					<p>Para complementar portafolio les dejo mi curriculum donde se concentra el detalle de mi experiencia laboral junto a un par de certificaciones. Que me permiten ver el front-end desde un 360.</p>
+				</div>
+				<div class="col-md-4 services-grid">
+					<img src="images/img3.png">
+					<h4>web development</h4>
+					<p>Mi nueva área (mi reinvención) para integrar todo lo aprendido en desarrollo de Front-End | UX | Diseño Web</p><br>
+					<p>Intentando aprender para mejorar (nadie nace sabiendo) para darle un sentido lógico y humano al código.</p>
+				</div>
+				<div class="clearfix"></div>
+				<div class="arrow1">
+					<a href="#work" class="scroll"><img src="images/arrow1.png" alt=""/></a>
+					</div>
+		</div>
+		</div>
+		</div>
+		<div class="works-section" id="work" id="work">
+		   <div class="works-header">
+				<h3><span>[</span> trabajos <span>]</span></h3>
+					<p>Acá exhibo algunos trabajos hechos durante el período de estudios en la Academia Desafío Latam. </p>
+			</div>
+			<div class="portfolio-section-bottom-row" id="portfolio"></div>
+			<main class="container">
+				<section class="row">
+					<article class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
+					  <div class="card h-100 mx-3">
+						<a href="https://ottoklaus.netlify.app/" target=”_blank”><img src="./images/pic-1.jpg" class="card-img-top p-2" alt="Sistema Inventario Otto Klaus"></a>
+						<div class="card-body">
+							<a href="https://ottoklaus.netlify.app/" target=”_blank”><h4 class="card-title">Sistema Inventario Otto Klaus con autentificación usuarios</h4></a>
+						  <br>
+						  <p class="card-text">Desarrollo de componentes avanzados con VUE JS - Vuetify - JavaScript - HTML - Firebase - Firestore (database) - netlify (deployment)</p>
+						  <br>
+						  <p class="card-text">Para ingresar utilizar user@user.com pass:123456</p>
+						</div>
+
+					</article>
+
+					<article class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
+						<div class="card h-100 mx-3">
+						  <a href="https://rickandmorty1.netlify.app/" target=”_blank”><img src="./images/pic-2.jpg" class="card-img-top p-2" alt="Rick and morty my store"></a>
+						  <div class="card-body">
+							  <a href="https://rickandmorty1.netlify.app/" target=”_blank”><h4 class="card-title">Rick and Morty "my store" unidad componentes web con VUE JS </h4></a>
+							<br>
+							<p class="card-text">Desarrollo de componentes con VUE JS - Bootstrap - JavaScript - HTML - Data vía API - netlify (deployment)</p>
+						  </div>
+  
+					  </article>
+
+					  <article class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
+						<div class="card h-100 mx-3">
+						  <a href="https://maxch78.github.io/pokedex/" target=”_blank”><img src="./images/pic-3.jpg" class="card-img-top p-2" alt="Pokedex"></a>
+						  <div class="card-body">
+							  <a href="https://maxch78.github.io/pokedex/" target=”_blank”><h4 class="card-title">Pokedex jQuery & plugins </h4></a>
+							<br>
+							<p class="card-text">Manejo de HTML - SCSS - JavaScript - jQuery - Bootstrap - SweetAlert2</p>
+						  </div>
+  
+					  </article>
+
+					  <article class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
+						<div class="card h-100 mx-3">
+						  <a href="https://rickmorty-personajes.netlify.app/" target=”_blank”><img src="./images/pic-4.jpg" class="card-img-top p-2" alt="Rick & Morty, info personajes"></a>
+						  <div class="card-body">
+							  <a href="https://rickmorty-personajes.netlify.app/" target=”_blank”><h4 class="card-title">Rick & Morty, info personajes</h4></a>
+							<br>
+							<p class="card-text">Trabajando con Callbacks y API's para obtener info de los personajes en arreglos</p>
+							<br>
+							<p class="card-text">Usando HTML - CSS - JavaScript - Bootstrap</p>
+						  </div>
+  
+					  </article>
+
+					  <article class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
+						<div class="card h-100 mx-3">
+						  <a href="https://maxch78.github.io/treki/" target=”_blank”><img src="./images/pic-5.jpg" class="card-img-top p-2" alt="landing page trekking"></a>
+						  <div class="card-body">
+							  <a href="https://maxch78.github.io/treki/" target=”_blank”><h4 class="card-title">Startup Trekking</h4></a>
+							<br>
+							<p class="card-text">Construcción de landing page responsivo utilizando: HTML - CSS - JavaScript -  Bootstrap - Sass - SVG images -  SVG animations</p>
+						  </div>
+  
+					  </article>
+
+					  <article class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
+						<div class="card h-100 mx-3">
+						  <a href="https://maxch78.github.io/ricomida/" target=”_blank”><img src="./images/pic-6.jpg" class="card-img-top p-2" alt="Ricomida landing page"></a>
+						  <div class="card-body">
+							  <a href="https://maxch78.github.io/ricomida/" target=”_blank”><h4 class="card-title">Landing Page Ricomida</h4></a>
+							<br>
+							<p class="card-text">"Fundamentos del Desarrollo Web" para el manejo de JS. Utilizando: html - javascript - jQuery - bootstrap  - css - popper</p>
+						  </div>
+  
+					  </article>
+
+					  <article class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
+						<div class="card h-100 mx-3">
+						  <a href="https://maxch78.github.io/grillas/" target=”_blank”><img src="./images/pic-7.jpg" class="card-img-top p-2" alt="Ricomida landing page"></a>
+						  <div class="card-body">
+							  <a href="https://maxch78.github.io/grillas/" target=”_blank”><h4 class="card-title">Conociendo la grilla</h4></a>
+							<br>
+							<p class="card-text">"Fundamentos del Desarrollo Web" manejo de bootstrap</p>
+						  </div>
+  
+					  </article>
+
+					  <article class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
+						<div class="card h-100 mx-3">
+						  <a href="https://maxch78.github.io/curriculum/" target=”_blank”><img src="./images/pic-8.jpg" class="card-img-top p-2" alt="curriculum-max"></a>
+						  <div class="card-body">
+							  <a href="https://maxch78.github.io/curriculum/" target=”_blank”><h4 class="card-title">Versión uno Curriculum-Max</h4></a>
+							<br>
+							<p class="card-text">Construyendo primer CV. Utilizando: html - css - javascript - bootstrap - flex - typeform</p>
+						  </div>
+  
+					  </article>
+
+					  <article class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
+						<div class="card h-100 mx-3">
+						  <a href="https://maxch78.github.io/cuppon/" target=”_blank”><img src="./images/pic-9.jpg" class="card-img-top p-2" alt="Landing Page Cuppon"></a>
+						  <div class="card-body">
+							  <a href="https://maxch78.github.io/cuppon/" target=”_blank”><h4 class="card-title">Landing Page Cuppon</h4></a>
+							<br>
+							<p class="card-text">"Fundamentos del Desarrollo Web" manejo de bootstrap </p>
+						  </div>
+  
+					  </article>
+
+				</section>
+			</main>
+
+
+
+
+
+			<div class="arrow">
+				<a href="#about" class="scroll"><img src="images/arrow.png" alt=""/></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- portfolio-section-ends -->
+	<div class="about-section" id="about" id="about">
+	<div class="container">
+		<div class="about-header">
+			<h3><span>[</span> Skills <span>]</span></h3>
+			<div class="about-imag">
+			<img src="images/pic-10.jpg" alt="maximiliam chicano - front end developer"/>
+			</div>
+			<div class="about-text">
+					<p>Mis skills están enfocadas en el desarrollo de ideas y capacidad para innovar, trabajar con calidad y detalle, utilizar pensamiento crítico, manejar nuevas tecnologías (TIC), comunicación (eficaz, segura, confianza, convicción) de escucha activa, asertiva y empática. Compromiso con el trabajo. Orientado al logro sabiendo cómo equilibrar el estrés del trabajo en equipo, identificando oportunidades como resolución de problemas.</p>
+			</div>
+			<div class="clearfix"></div>
+			</div>
+			<div class="about-sectiongrids">
+				<div class="col-md-6 about-leftgrid">
+					
+					<div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>HTML5 / CSS3</h4>
+						</div>
+						<div class="percentage">
+							<p>80%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:80%"> </div>
+	                      </div>
+	                      </div>
+						  <div class="polls">
+							<div class="poll">
+								<div class="poll-desc">
+									<h4>adobe xd</h4>
+								</div>
+								<div class="percentage">
+									<p>60%</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="skills">
+									  <div style="width:60%"> </div>
+								  </div>
+								  </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Bootstrap</h4>
+						</div>
+						<div class="percentage">
+							<p>70%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:70%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Web Design</h4>
+						</div>
+						<div class="percentage">
+							<p>80%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:80%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>SASS</h4>
+						</div>
+						<div class="percentage">
+							<p>60%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:60%"> </div>
+				
+	                      </div>
+	                      </div>
+						  <div class="polls">
+							<div class="poll">
+								<div class="poll-desc">
+									<h4>adobe photoshop</h4>
+								</div>
+								<div class="percentage">
+									<p>90%</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="skills">
+									  <div style="width:90%"> </div>
+								  </div>
+								  </div>
+						
+
+	</div>
+	<section class="col-md-6 about-rightgrid">
+		<div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>VUEJS</h4>
+						</div>
+						<div class="percentage">
+							<p>60%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:60%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>github/deploy</h4>
+						</div>
+						<div class="percentage">
+							<p>70%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:70%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>javascript</h4>
+						</div>
+						<div class="percentage">
+							<p>50%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width: 50%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Jquery</h4>
+						</div>
+						<div class="percentage">
+							<p>40%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:40%"> </div>
+	                      </div>
+	                      </div>
+						  <div class="polls">
+							<div class="poll">
+								<div class="poll-desc">
+									<h4>adobe illustrator</h4>
+								</div>
+								<div class="percentage">
+									<p>80%</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="skills">
+									  <div style="width:80%"> </div>
+								  </div>
+								  </div>
+								  <div class="polls">
+									<div class="poll">
+										<div class="poll-desc">
+											<h4>firebase/firestore</h4>
+										</div>
+										<div class="percentage">
+											<p>50%</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="skills">
+											  <div style="width:50%"> </div>
+										  </div>
+										  </div>
+		</div>
+		<div class="clearfix"></div>
+	</section>
+	<div class="arrow1">
+	<a href="#contact" class="scroll"><img src="images/arrow1.png" alt=""/></a>
+					</div>
+	</div>
+	</div>
+	</div>
+	<div class="footer-section" id="contact" id="contact">
+			<div class="container"> 
+			<div class="contact-header">
+				<h3><span>[</span> CONTÁCTAME <span>]</span></h3>
+					<p>Si te interesó lo que viste y quieres contactarme, dale click a cualquiera de las dos opciones:</p>
+			</div>
+
+<section class="d-flex justify-content-center">
+
+<a href="mailto:maxch78@gmail.com"><button type="button" class="btn btn-outline-warning mx-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-envelope" viewBox="0 0 19 18">
+  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"></path>
+</svg>
+                Email
+              </button></a>
+
+			
+<a href="https://api.whatsapp.com/send?phone=56978454647&text=Hola!%20Quiero%20saber%20mas%20de%20tu%20trabajo!"target=”_blank”><button type="button" class="btn btn-outline-warning mx-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 19 18">
+					<path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+				  </svg>
+                Whatsapp
+              </button></a>
+			</section>
+			<br>
+			<section class="d-flex justify-content-center text-white mb-4">Ó si quieres ver más en detalle mi código y otras experiencias laborales en marketing digital para ecommerces de retailers nacionales:</section>
+			<section class="d-flex justify-content-center">
+				<a href="https://github.com/maxch78"target=”_blank”><button type="button" class="btn btn-outline-warning mx-4">
+					<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-github" viewBox="0 0 19 18">
+						<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+					  </svg>
+					Github
+				  </button></a>
+				  <a href="https://www.linkedin.com/in/maximiliamchicano/"target=”_blank”><button type="button" class="btn btn-outline-warning mx-4">
+					<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 19 18">
+						<path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+					  </svg>
+					Linkedin
+				  </button></a>
+
+				  </section>
+
+            	
+
+
+
+				<div class="footer-bottom">
+
+					<a href="#" id="topTop" style="display: block"><p class="font-weight-normal text-white-50">Maxch78 | 2020</p></a>
+
+					
+				</div>
+
+				<a href="#" id="toTop" style="display: block"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</div>
+
+		</div>		
+	</div>
+	     <!--jQuery 3.3.1-->
+		 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		 <!--Bootstrap JS 4.1.3-->
+		 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	
+</body>
+</html>
